@@ -5,11 +5,11 @@ import praw
 import responses
 import time
 
-reddit = praw.Reddit(client_id='rCZeqGE72pnYjhcKkvwSMA',
-                     client_secret='JnnNx-1FU82WS3el8Ez-QVtVZS3kwg',
-                     user_agent='<console:LONELY:1.0',
-                     username = 'LonelyDetectorV1',
-                     password = 'lonelylonely')
+reddit = praw.Reddit(client_id='-----',
+                     client_secret='-----',
+                     user_agent='-----',
+                     username = '-----',
+                     password = '-----')
 
 subreddit = reddit.subreddit("lonely")
 
